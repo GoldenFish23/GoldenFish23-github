@@ -604,6 +604,9 @@ footer {
         width:20px;
         height:20px;
     }
+    .design-title h1{
+        margin-bottom:6.5vh;
+    }
     .photo{
         left: 21%;
         top: 32%;
