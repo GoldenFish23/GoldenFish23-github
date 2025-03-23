@@ -117,7 +117,7 @@ nav ul li:hover{
     padding: 0px;
     overflow-x: hidden;
     overflow-y: scroll;
-    background:linear-gradient(to right, rgb(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 20%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 80%, rgba(0, 0, 0, 0.8) 100%), url("resources/copy_capture_large.png");
+    background:linear-gradient(to right, rgb(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0.6) 100%), url("resources/copy_capture_large.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
