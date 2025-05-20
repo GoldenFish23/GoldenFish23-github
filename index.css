@@ -365,20 +365,28 @@ nav ul li:hover{
     margin: 0px;
     border-radius: 3px;
 }
-#bec{
-    background: linear-gradient(to right,rgb(13, 53, 127) 30%, rgb(35, 83, 171) 60%,cornflowerblue );
+
+#bac{
+    background: linear-gradient(to right,rgb(13, 53, 127) 30%, rgb(35, 83, 171) 60%, cornflowerblue);
 }
-#bec:hover{
-    background-color: rgb(13, 53, 127);
-    background: linear-gradient(to left,rgb(13, 53, 127) 30%, rgb(35, 83, 171) 60%,cornflowerblue );
+#bac:hover{
+    background: linear-gradient(to left,rgb(13, 53, 127) 30%, rgb(35, 83, 171) 60%, cornflowerblue);
     transition: 0.7s ease;
     color: white;
 }
 #des{
-    background-color: red;
+    background: linear-gradient(to left,rgb(105, 12, 12) 30%, rgb(158, 26, 26) 60%, red);
 }
 #des:hover{
-    background: linear-gradient(to right,rgb(105, 12, 12) 30%, rgb(158, 26, 26) 60%,red );
+    background: linear-gradient(to right,rgb(105, 12, 12) 30%, rgb(158, 26, 26) 60%, red);
+    transition: 0.7s ease;
+    color: white;
+}
+#mac{
+    background: linear-gradient(to right,rgb(87, 187, 209) 30%, rgb(10, 122, 146) 60%, cornflowerblue);
+}
+#mac:hover{
+    background: linear-gradient(to left,rgb(87, 187, 209) 30%, rgb(10, 122, 146) 60%, cornflowerblue);
     transition: 0.7s ease;
     color: white;
 }
@@ -402,6 +410,15 @@ nav ul li:hover{
 }
 #django{
     width:87%;
+}
+#tensorflow{
+    width:85%;
+}
+#ml{
+    width:95%;
+}
+#dl{
+    width:83%;
 }
 
 
