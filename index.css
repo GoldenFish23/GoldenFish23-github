@@ -383,10 +383,10 @@ nav ul li:hover{
     color: white;
 }
 #mac{
-    background: linear-gradient(to right,rgb(87, 187, 209) 30%, rgb(10, 122, 146) 60%);
+    background: linear-gradient(to right,rgb(87, 187, 209) 30%, rgb(10, 122, 146) 60%, rgb(4, 106, 128));
 }
 #mac:hover{
-    background: linear-gradient(to left,rgb(87, 187, 209) 30%, rgb(10, 122, 146) 60%);
+    background: linear-gradient(to left,rgb(87, 187, 209) 30%, rgb(10, 122, 146) 60%, rgb(4, 106, 128));
     transition: 0.7s ease;
     color: white;
 }
