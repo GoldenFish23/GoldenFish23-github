@@ -331,10 +331,14 @@ nav ul li:hover{
     /* height: 0%; */
     transition: height 3s ease-in;
 }
-.skill-left:hover + .skill-left-stats-div{
+.one:hover .skill-left-stats-div {
     display: flex;
     height: fit-content;
 }
+/* .skill-left:hover + .skill-left-stats-div{
+    display: flex;
+    height: fit-content;
+} */
 .skill-left-stats-div-sub{
     width:90%;
     height: fit-content;
