@@ -336,6 +336,13 @@ nav ul li:hover{
     height: fit-content;
     
 }
+.skills,
+.skills-sub,
+.skills-showcase,
+.one {
+    height: fit-content;
+    overflow: visible;
+}
 /* .skill-left:hover + .skill-left-stats-div{
     display: flex;
     height: fit-content;
