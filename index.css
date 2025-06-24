@@ -321,19 +321,20 @@ nav ul li:hover{
     font-family: "League Gothic", serif;
     font-size: 8vh;
 }
-.skill-left-stats-div{
-    background-color: rgb(255, 255, 255);
-    height:0;
-    display: none;
+.skill-left-stats-div {
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 0%; */
-    transition: height 3s ease-in;
+    transition: max-height 3s ease;
 }
 .one:hover .skill-left-stats-div {
+    max-height: 70vh;
     display: flex;
     height: fit-content;
+    
 }
 /* .skill-left:hover + .skill-left-stats-div{
     display: flex;
