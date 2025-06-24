@@ -929,7 +929,7 @@ footer {
 
 @media (min-width: 1440px) and (max-width: 2560px){
     .skills{
-        height:90vh;
+        height: fit-content;
     }
     .photo{
         left:33.5%;
@@ -955,7 +955,7 @@ footer {
 
 @media (min-width: 2560px) and (max-width: 4560px){
     .skills{
-        height:80vh;
+        height: fit-content;
     }
     .aboutme-text{
         font-size:x-large;
