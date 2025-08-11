@@ -59,6 +59,7 @@ nav{
     min-width: 100vw;
     z-index: 3;
     overflow: hidden;
+    flex-direction: column;
 }
 .nav-div{
     height: fit-content;
@@ -102,7 +103,13 @@ nav ul li:hover{
     color: #c70101;
     cursor: pointer;
 }
-
+nav hr{
+    background-color: #B25054;
+    margin: 0px;
+    height: 0.3vw;
+    width: 100vw;
+    border: 0px;
+}
 
 
 
@@ -183,6 +190,7 @@ nav ul li:hover{
     display: flex;
     flex-direction: column;
     padding: 0px;
+    align-items: flex-end;
 }
 .left-right{
     position: absolute;
@@ -204,9 +212,9 @@ nav ul li:hover{
     width:5vw;
     border-radius: 2px;
 }
-.left-right button{
+.top-bottom button{
     padding: 5px 10px;
-    background-color: #E4080A;
+    background-color: #B25054;
     color:white;
     border-radius: 4px;
 }
@@ -437,7 +445,7 @@ nav ul li:hover{
 
 
 .project{
-    height:100vh;
+    height:fit-content;
     width:100vw;
     min-width: 100vw;
     display:flex;
@@ -459,15 +467,18 @@ nav ul li:hover{
 .project-showcase{
     display: grid;
     gap: 15px;
-    grid-template-columns: auto auto auto;
-    grid-auto-rows: 30vh;
-    margin-bottom: auto;
+    grid-template-columns: minmax(20vw, 1fr) minmax(20vw, 1fr) minmax(20vw, 1fr);
+    grid-auto-rows: minmax(25vh, 1fr);
+    margin-bottom: 3vw;
     height:fit-content;
+}
+.project-showcase a{
+    text-decoration: none;
 }
 .image-container1{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    background-image: url("https://github.com/GoldenFish23/GoldenFish23-github/raw/main/resources/Screenshot%202025-03-31%20204535.png");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1)), url("https://github.com/GoldenFish23/Music-recommender/raw/main/resources/Screenshot%202025-08-11%20204136.png");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -475,13 +486,13 @@ nav ul li:hover{
     border-radius: 4px;
     height: 100%;
 }
-.image-container1:hover, .image-container2:hover, .image-container3:hover{
+.image-container1:hover, .image-container2:hover, .image-container3:hover, .image-container4:hover{
     border:2px solid black;
 }
 .image-container2{
     grid-column: 2 / 4;
     grid-row: 1 / 2;
-    background-image: url("https://github.com/GoldenFish23/GoldenFish23-github/raw/main/resources/Screenshot%202025-03-31%20225838.png");
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1)), url("https://github.com/GoldenFish23/GitShit/raw/main/resources/Screenshot%202025-08-06%20192448.png");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -489,16 +500,17 @@ nav ul li:hover{
     border-radius: 4px;
     height: 100%;
 }
-.image-container1 p, .image-container2 p, .image-container3 p{
+.image-container1 p, .image-container2 p, .image-container3 p,.image-container4 p{
     padding-right: 20px;
-    color:rgb(231, 234, 37);
+    color: #99c4ff;
     font-family: "Inter", serif;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .image-container3{
     grid-column: 2 / 4;
     grid-row: 2 / 2;
-    background-image: url("https://github.com/GoldenFish23/Linkedin-post-scheduler/raw/main/Images/Screenshot%202025-02-16%20224950.png");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1)), url("https://github.com/GoldenFish23/Linkedin-post-scheduler/raw/main/Images/Screenshot%202025-02-16%20224950.png");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -506,7 +518,43 @@ nav ul li:hover{
     border-radius: 4px;
     height: 100%;
 }
+.image-container4{
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1)), url("https://github.com/GoldenFish23/Python-Tkinter-Notepad_Clone/raw/main/Images/Screenshot%202024-08-05%20222957.png");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 4px;
+    height: 100%;
+}
+.project-showcase a{
+    border: 1px;
+}
 
+
+
+.intern{
+    display: inline-flex;
+    justify-content: center;
+    width:100vw;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ede7ae;
+}
+.intern h2{
+    margin-block-end: 0px;
+}
+.intern ul{
+    display: inline-flex;
+    align-items: center;
+    margin-block-start: 0px ;
+}
+.intern ul img{
+    width:15vw;
+    height: auto;
+}
 
 
 .contact{
@@ -643,7 +691,7 @@ footer {
         border-radius: 10px;
     }
     .project-showcase{
-        display: flex;
+        display: grid;
         flex-direction: column;
     }
     .image-container1{
@@ -753,7 +801,7 @@ footer {
         border-radius: 10px;
     }
     .project-showcase{
-        display: flex;
+        display: grid;
         flex-direction: column;
     }
     .image-container1{
@@ -809,7 +857,7 @@ footer {
     }
     .project-showcase{
         grid-template-columns: auto;
-        grid-auto-rows: 30vh;
+        grid-auto-rows: 30vh 30vh;
         height: fit-content;
     }
     .skills-sub{
@@ -866,6 +914,10 @@ footer {
     .skills-sub{
         padding-top: 39px;
     }
+    .project-showcase{
+        grid-template-columns: minmax(20vw, 1fr) minmax(20vw, 1fr);
+        grid-auto-rows: minmax(25vh, 1fr);
+    }
 }
 
 @media (min-width: 786px) and (max-width: 1024px){
@@ -886,6 +938,10 @@ footer {
     .aboutme-text{
         font-size: small;
         margin: 10vh 5vh;
+    }
+    .project-showcase{
+        grid-template-columns: minmax(20vw, 1fr) minmax(20vw, 1fr);
+        grid-auto-rows: minmax(25vh, 1fr);
     }
     .contact{
         font-size: small;
