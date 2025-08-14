@@ -694,7 +694,7 @@ footer {
         display: grid;
         flex-direction: column;
     }
-    .image-container1{
+/*     .image-container1{
         height: 20vh;
     }
     .image-container2{
@@ -702,7 +702,7 @@ footer {
     }
     .image-container3{
         height: 20vh;
-    }
+    } */
     #aldov{
         flex-direction: column;
         width:100%;
@@ -804,7 +804,7 @@ footer {
         display: grid;
         flex-direction: column;
     }
-    .image-container1{
+/*     .image-container1{
         height: 20vh;
     }
     .image-container2{
@@ -812,7 +812,7 @@ footer {
     }
     .image-container3{
         height: 20vh;
-    }
+    } */
     #aldov{
         flex-direction: column;
         width:100%;
@@ -1037,4 +1037,5 @@ footer {
         padding-top: 127px;
     }
 }
+
 
