@@ -51,7 +51,7 @@ nav{
     justify-content: space-between;
     font-family: "Inter", serif;
     height: fit-content;
-    background-color: rgba(40, 38, 38,0.7);
+    background-color: #171717;
     color: white;
     align-items: center;
     justify-content: center;
@@ -69,8 +69,8 @@ nav{
 }
 .nav-div-title{
     width:40%;
-    background-color: #f7f3ce;
-    color:black;
+    background-color: #171717;
+    color: #ffffff;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -1037,5 +1037,6 @@ footer {
         padding-top: 127px;
     }
 }
+
 
 
