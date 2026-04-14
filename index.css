@@ -521,7 +521,7 @@ nav hr{
 .image-container4{
     grid-column: 3 / 4;
     grid-row: 2 / 2;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1)), url("https://github.com/GoldenFish23/Python-Tkinter-Notepad_Clone/raw/main/Images/Screenshot%202024-08-05%20222957.png");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1)), url("https://github.com/GoldenFish23/Musica-TUI/raw/main/build/img/Screenshot_2026-02-08_200614.png");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
