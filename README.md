@@ -61,7 +61,7 @@ Designed a backend-integrated PHP application for managing parking space allocat
 Built and deployed ML models for movie recommendations and digit recognition, achieving 86.4% accuracy and boosting user engagement by 20%.
 
 ## Website
-Portfolio: [https://goldenfish23.github.io/GoldenFish23-github](https://goldenfish23.github.io/GoldenFish23-github/index.html#home)
+Portfolio: [Duron | Vijay B. Vishwakarma](https://duron-su2n.onrender.com/leadership)
 
 ## Contact
 Email: [fishgolden0023@gmail.com](fishgolden0023@gmail.com)
